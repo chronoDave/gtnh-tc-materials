@@ -1,0 +1,34 @@
+{
+  "name": "gtnh-tc-materials",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Parse MaterialsDefaults.cfg and display material stats ",
+  "type": "module",
+  "homepage": "https://github.com/chronoDave/gtnh-tc-materials#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chronoDave/gtnh-tc-materials.git"
+  },
+  "engines": {
+    "node": ">=24.11.1"
+  },
+  "license": "CC0 1.0 Universal",
+  "author": "Chronocide",
+  "scripts": {
+    "start": "node scripts/build.ts -w",
+    "build": "node scripts/build.ts"
+  },
+  "optionalDependencies": {
+    "@chronocide/eslint-config": "github:chronoDave/eslint-config",
+    "eslint": "^9.35.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "esbuild": "^0.27.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@chronocide/hyper": "^0.3.2",
+    "@chronocide/web-components": "^0.0.2"
+  }
+}

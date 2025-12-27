@@ -1,0 +1,31 @@
+svg[hidden] {
+  display: none;
+}
+
+[data-filtered] {
+  display: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.datagrid {
+  overflow: auto;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #eee;
+}
+
+td {
+  padding: 0.25rem 0.5rem;
+}
+
+code {
+  border: 1px solid lightgray;
+  padding: 2px 4px;
+  background-color: #eee;
+  border-radius: 2px;
+}
